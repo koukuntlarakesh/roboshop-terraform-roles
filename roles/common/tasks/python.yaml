@@ -1,7 +1,7 @@
 - name: Install python gcc python 3
-  ansible.builtin.package:
-      name: "{{item}}"
-      state: present
+  ansible.builtin.dnf:
+    name: "{{item}}"
+    state: present
   loop:
        - python36
        - gcc

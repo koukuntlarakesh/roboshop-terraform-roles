@@ -2,7 +2,7 @@
   ansible.builtin.package:
       name: "{{item}}"
       state: present
-      loop:
+  loop:
        - python36
        - gcc
        - python3-devel

@@ -1,0 +1,10 @@
+MONGODB_HOST: mongodb-prod.koukuntla.online
+CATALOGUE_HOST:  catalogue-prod.koukuntla.online
+USER_HOST: user-prod.koukuntla.online
+CART_HOST: cart-prod.koukuntla.online
+SHIPPING_HOST: shipping-prod.koukuntla.online
+REDIS_HOST: redis-prod.koukuntla.online
+MYSQL_HOST: mysql-prod.koukuntla.online
+PAYMENT_HOST: payment-prod.koukuntla.online
+RABBITMQ_HOST: rabbitmq-prod.koukuntla.online
+DISPATCH_HOST: dispatch-prod.koukuntla.online

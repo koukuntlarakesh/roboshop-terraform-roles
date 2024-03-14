@@ -1,10 +1,10 @@
 MONGODB_HOST: mongodb-dev.koukuntla.online
-CATALOGUE_HOST:  catalogue-dev.koukuntla.online
-USER_HOST: user-dev.koukuntla.online
-CART_HOST: cart-dev.koukuntla.online
-SHIPPING_HOST: shipping-dev.koukuntla.online
+CATALOGUE_HOST:  catalogue.app-dev.koukuntla.online
+USER_HOST: user.app-dev.koukuntla.online
+CART_HOST: cart.app-dev.koukuntla.online
+SHIPPING_HOST: shipping.app-dev.koukuntla.online
 REDIS_HOST: redis-dev.koukuntla.online
 MYSQL_HOST: mysql-dev.koukuntla.online
-PAYMENT_HOST: payment-dev.koukuntla.online
+PAYMENT_HOST: payment.app-dev.koukuntla.online
 RABBITMQ_HOST: rabbitmq-dev.koukuntla.online
-DISPATCH_HOST: dispatch-dev.koukuntla.online
+DISPATCH_HOST: dispatch.app-dev.koukuntla.online

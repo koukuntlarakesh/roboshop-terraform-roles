@@ -15,7 +15,8 @@
   - name: "download {{component}} application"
     ansible.builtin.get_url:
       #url: "https://roboshop-builds.s3.amazonaws.com/{{component}}.zip"
-      url: "http://54.89.184.102:8081/repository/catalogue/com/roboshop/catalogue/1.0.0/catalogue-1.0.0.zip"
+      # url: "http://54.89.184.102:8081/repository/catalogue/com/roboshop/catalogue/1.0.0/catalogue-1.0.0.zip"
+      url: "{{NEXUS_URL}}/{{component}}/{{group_id}}/{{component}}/{{app_version}}/{{component}}-{{app_version}}.zip"
       dest: /tmp
 
   - name: "extract {{component}} application"

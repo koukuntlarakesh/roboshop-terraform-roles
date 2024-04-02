@@ -8,3 +8,5 @@ MYSQL_HOST: mysql-dev.koukuntla.online
 PAYMENT_HOST: payment.app-dev.koukuntla.online
 RABBITMQ_HOST: rabbitmq-dev.koukuntla.online
 DISPATCH_HOST: dispatch.app-dev.koukuntla.online
+NEXUS_URL: http://172.31.92.65:8081/repository
+group_id: "com/roboshop"
